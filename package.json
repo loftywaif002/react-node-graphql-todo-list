@@ -1,0 +1,24 @@
+{
+  "name": "react-todo-list",
+  "version": "1.0.0",
+  "description": "Todo List",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Dipro Chowdhury",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "1.19.3"
+  }
+}
